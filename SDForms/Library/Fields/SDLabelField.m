@@ -20,6 +20,8 @@
     SDLabelFormCell *cell = (SDLabelFormCell *)[super cellForTableView:tableView atIndex:index];
     cell.titleLabel.text = self.title;
     cell.valueLabel.text = self.formattedValue;
+    cell.accessoryType = self.accessoryType;
+    cell.selectionStyle = self.selectionStyle;
     return cell;
 }
 

@@ -9,5 +9,6 @@
 #import "SDFormField.h"
 
 @interface SDLabelField : SDFormField
-
+@property (nonatomic) UITableViewCellAccessoryType accessoryType;
+@property (nonatomic) UITableViewCellSelectionStyle selectionStyle;
 @end
